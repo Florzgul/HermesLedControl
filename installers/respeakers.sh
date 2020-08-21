@@ -16,7 +16,7 @@ rm -rf /home/${USER}/seeed-voicecard
 git clone https://github.com/respeaker/seeed-voicecard.git
 cd seeed-voicecard
 chmod +x ./install.sh
-./install.sh
+./install.sh --compat-kernel
 
 echo "###################################### All done! #######################################"
 echo "##################### Don't forget to turn on the SPI interface! #######################"
